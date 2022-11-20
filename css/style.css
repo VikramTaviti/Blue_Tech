@@ -1,0 +1,168 @@
+body{
+
+
+background-color:white;
+width:100%;
+margin:0;
+box-sizing: border-box;
+}
+
+.bluetech{
+
+font-family: 'Allerta Stencil';
+text-shadow: 1px 1px 10px grey;
+}
+
+.tagline{
+color:grey;
+font-family: 'Allerta Stencil';
+text-shadow: 1px 1px 10px grey;
+}
+
+.intro{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+ width: 100%;
+ height: 520px;
+ background: linear-gradient(to bottom, rgba(0, 0, 0.4, 0.4) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://sociable.co/wp-content/uploads/2017/04/software-development-1200x800.jpg");
+
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+
+.intro h1 {
+
+      font-family: sans-serif;
+      font-size: 60px;
+      color: #fff;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top:0px;
+}
+
+.intro p {
+      word-spacing:3px;
+      font-size: 20px;
+      color: #d1d1d1;
+      text-transform: uppercase;
+      margin:20px 0;
+
+}
+
+.expertise{
+display:flex;
+flex-direction: row;
+justify-content: center;
+
+align-items:center;
+ padding: 0px 80px;
+}
+
+.expertise .tech{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+    height:400px;
+    width: fit-content;
+}
+
+.expertise .tech .expertise-heading{
+
+
+
+      font-size: 20px;
+      color: #000000;
+      text-transform: uppercase;
+      margin: 10px 0px;
+
+}
+
+.expertise .tech .expertise-text{
+    font-size:15px;
+    color:#585858;
+    margin:10px 0;
+}
+
+.clients{
+display:flex;
+flex-direction: row;
+justify-content: center;
+
+align-items:center;
+ padding: 0px 2px;
+ margin-bottom:30px;
+}
+
+
+
+.counters {
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(https://lyncserve.com/images/design-team.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+	color: #fff;
+	padding: 40px 20px;
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 30px;
+	text-align: center;
+}
+
+.counters i {
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+.counters .counter {
+	font-size: 45px;
+	margin: 10px 0;
+}
+
+  .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #090140;
+      padding: 40px 80px;
+    }
+
+    .footer .copy {
+      color: #fff;
+    }
+
+    .bottom-links {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .bottom-links .links {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 40px;
+    }
+
+    .bottom-links .links span {
+      font-size: 20px;
+      color: #fff;
+      text-transform: uppercase;
+      margin: 10px 0;
+    }
+
+    .bottom-links .links a {
+      text-decoration: none;
+      color: #a1a1a1;
+      padding: 10px 20px;
+    }
